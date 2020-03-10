@@ -1,0 +1,19 @@
+<table class="table" border="0px" cellspacing="0" cellpadding="0">
+    <thead class="head">
+        <tr>
+            <th>Name</th>
+            <th>Birth Date</th>
+            <th>Function</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+
+    <tbody class="body">
+        <tr *ngFor="let employee of employeeList">
+            <td>{{employee.name}}</td>
+            <td>{{employee.birthDate | date: 'short'}}</td>
+            <td>{{employee.function}}</td>
+            <td>{{employee.salary}}</td>
+        </tr>
+    </tbody>
+</table>

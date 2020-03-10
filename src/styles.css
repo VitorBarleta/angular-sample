@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.primary-button {
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #0055b6;
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 20px;
+    box-shadow: 3px 3px 5px 1px grey;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: #0066da;
+}
+
+.action-buttons {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
